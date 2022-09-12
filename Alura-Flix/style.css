@@ -1,0 +1,85 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://criticalhits.com.br/wp-content/uploads/2022/08/O-Senhor-dos-Aneis.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #B8860B;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: #000;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: #000;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+
+  input {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 25px;
+    width: 400px;
+    border-radius: 0.5em;
+  }
+
+  h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    color: white;
+    text-align: left;
+    margin-bottom: -15px;
+    margin-top: 50px;
+  }
+
+  button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 0.5em;
+    border-color: #ffffff;
+    background-color: #B8860B;
+    color: #ffffff;
+    height: 35px;
+    width: 150px;
+    margin-top: 0.5px;
+  }
+  
+  #compartilhados img{
+    margin: 5px;
+    max-height: 250px;
+  }
