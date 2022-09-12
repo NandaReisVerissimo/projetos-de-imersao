@@ -18,5 +18,7 @@ function compartilhar() {
 
   function adicionarNome() {
     let filmeAdicionado = document.getElementById ("nomeFilme").value;
+    let nomeFilme = document.getElementById("adicionados")
+    nomeFilme.innerHTML = nomeFilme.innerHTML + filmeAdicionado
     document.getElementById ("nomeFilme").value = ""
   }

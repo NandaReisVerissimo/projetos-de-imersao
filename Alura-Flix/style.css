@@ -83,3 +83,11 @@ body {
     margin: 5px;
     max-height: 250px;
   }
+
+  #adicionados {
+    color: white;
+    margin-top: -30px;
+    margin-right: 50px;
+    font-size: 20px;
+    text-align: center;
+  }
